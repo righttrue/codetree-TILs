@@ -1,6 +1,6 @@
-N = 4
+N = int(input())
 
-arr = [3,2,3,1]
+arr = list(map(int, input().split()))
 arr2 = []
 arr3 = []
 ans = -1
@@ -15,7 +15,7 @@ for i in arr:
         arr3.append(i)
 
 
-if len(set(arr)) == len(set(arr2)):   
+if len(arr3) == 0:   
     print(ans)
 else:
     print(max(arr3))
