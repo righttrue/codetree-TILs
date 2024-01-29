@@ -17,3 +17,4 @@ for i in arr:
 if len(set(arr)) == len(set(arr2)):    print(ans)
 else:
     print(max_num)
+print(arr2)
