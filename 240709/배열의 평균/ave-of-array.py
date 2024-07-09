@@ -22,4 +22,4 @@ for i in range(len(arr_2d)):
     for j in range(len(arr_2d[i])):
         count+=1
         total_sum += arr_2d[i][j]
-print(round(total_sum/count,2))
+print(f"{total_sum/count:0.1f}")
