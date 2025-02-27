@@ -1,13 +1,7 @@
 words = []
 for _ in range(3):
     word = input()
-    words.append(word)
+    words.append(len(word))
 
-min_len = 20
-for word in words:
-    if min_len >= len(word):
-        min_len = len(word)
-    else:
-        continue
-
-print(min_len)
+len_n = -min(words) + max(words)
+print(len_n)
